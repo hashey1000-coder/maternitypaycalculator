@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/juliaspl/public_html/
-    - /bin/cp -R export/* $DEPLOYPATH
+    - export DEPLOYPATH=/home/juliaspl/maternitypaycalculator.co.uk/
+    - /bin/rsync -av --delete export/ $DEPLOYPATH
