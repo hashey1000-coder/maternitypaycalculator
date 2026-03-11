@@ -10,30 +10,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      # Setup Node
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # Build static export
-      - name: Build site
+      - name: Build static site
         run: npm run build
 
-      # Upload the built site to cPanel
-      - name: Deploy to server
+      - name: Upload build folder
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USER }}
           key: ${{ secrets.CPANEL_SSH_KEY }}
-          source: "out/*"
-          target: "/home/juliaspl/maternitypaycalculator.co.uk/"
+          source: "out"
+          target: "/home/juliaspl/"
+
+      - name: Move files into domain root
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.CPANEL_HOST }}
+          username: ${{ secrets.CPANEL_USER }}
+          key: ${{ secrets.CPANEL_SSH_KEY }}
+          script: |
+            rm -rf /home/juliaspl/maternitypaycalculator.co.uk/*
+            cp -r /home/juliaspl/out/* /home/juliaspl/maternitypaycalculator.co.uk/
+            rm -rf /home/juliaspl/out
