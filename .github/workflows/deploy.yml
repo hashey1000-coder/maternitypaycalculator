@@ -2,27 +2,38 @@ name: Deploy to cPanel
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      # Setup Node
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: npm install
-      - run: npm run build
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
 
-      - name: Upload site
+      # Build static export
+      - name: Build site
+        run: npm run build
+
+      # Upload the built site to cPanel
+      - name: Deploy to server
         uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.CPANEL_HOST }}
           username: ${{ secrets.CPANEL_USER }}
           key: ${{ secrets.CPANEL_SSH_KEY }}
           source: "out/*"
-          target: "/home/juliaspl/maternitypaycalculator.co.uk"
+          target: "/home/juliaspl/maternitypaycalculator.co.uk/"
