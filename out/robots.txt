@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://maternitypaycalculator.co.uk/sitemap.xml
