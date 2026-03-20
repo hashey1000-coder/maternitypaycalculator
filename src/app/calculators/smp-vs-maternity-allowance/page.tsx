@@ -65,8 +65,7 @@ export default function SMPvsMACalculator() {
   };
 
   const breadcrumbs = [
-    { label: "Home", href: "/" },
-    { label: "Calculators", href: "/calculators" },
+    { label: "Calculators", href: "/calculators/" },
     { label: "SMP vs Maternity Allowance" },
   ];
 
@@ -474,10 +473,10 @@ export default function SMPvsMACalculator() {
                 <tr>
                   <td className="p-3 border border-slate-200 font-medium">Higher rate</td>
                   <td className="p-3 border border-slate-200">
-                    6 weeks at 90% of AWE
+                    6 weeks at 90% of AWE (no cap)
                   </td>
                   <td className="p-3 border border-slate-200">
-                    No higher rate period
+                    No separate higher rate — same rate for all 39 weeks
                   </td>
                 </tr>
                 <tr className="bg-slate-50">

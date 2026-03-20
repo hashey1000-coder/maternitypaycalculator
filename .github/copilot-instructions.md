@@ -24,7 +24,7 @@ This is a Next.js 16 website (maternitypaycalculator.co.uk) built with TypeScrip
 - Use UK English throughout content
 - All monetary values use GBP (£) formatting
 - Tax year references should be 2025/26
-- SMP rates: £187.18/week flat rate, £125 lower earnings limit
+- SMP rates: £194.32/week flat rate, £129 lower earnings limit
 - Components use Tailwind utility classes with purple/pink gradient theme
 - SEO: Every page has proper metadata, canonical URLs, and structured data
 

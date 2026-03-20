@@ -61,8 +61,7 @@ export default function EnhancedMaternityPayCalculator() {
   };
 
   const breadcrumbs = [
-    { label: "Home", href: "/" },
-    { label: "Calculators", href: "/calculators" },
+    { label: "Calculators", href: "/calculators/" },
     { label: "Enhanced Maternity Pay Calculator" },
   ];
 

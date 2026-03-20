@@ -306,7 +306,8 @@ export default function ChildBenefitPage() {
             caring for a child under 12, the Child Benefit claim automatically gives you
             National Insurance credits. These credits fill gaps in your NI record and count
             towards the 35 qualifying years you need for the full new State Pension (£230.25
-            per week in 2025/26, rising from April 2026 under the triple lock).
+            per week in 2025/26, rising to approximately £236.10 per week from April 2026
+            under the triple lock).
           </p>
           <p>
             Without these credits, a period of maternity leave followed by part-time work or

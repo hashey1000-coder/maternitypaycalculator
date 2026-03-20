@@ -165,14 +165,9 @@ export default function MaternityAllowancePage() {
                   <td className="px-4 py-2 border border-slate-200">DWP (government)</td>
                 </tr>
                 <tr className="bg-slate-50/50">
-                  <td className="px-4 py-2 border border-slate-200 font-medium">First 6 weeks</td>
-                  <td className="px-4 py-2 border border-slate-200">90% of AWE (no cap)</td>
-                  <td className="px-4 py-2 border border-slate-200">90% of AWE or £194.32 (whichever is less)</td>
-                </tr>
-                <tr>
-                  <td className="px-4 py-2 border border-slate-200 font-medium">Weeks 7–39</td>
-                  <td className="px-4 py-2 border border-slate-200">£194.32/week</td>
-                  <td className="px-4 py-2 border border-slate-200">£194.32/week</td>
+                  <td className="px-4 py-2 border border-slate-200 font-medium">Rate structure</td>
+                  <td className="px-4 py-2 border border-slate-200">6 weeks at 90% of AWE (no cap), then 33 weeks at £194.32/wk or 90% of AWE (whichever is lower)</td>
+                  <td className="px-4 py-2 border border-slate-200">Same rate for all 39 weeks: 90% of AWE or £194.32 (whichever is lower)</td>
                 </tr>
                 <tr className="bg-slate-50/50">
                   <td className="px-4 py-2 border border-slate-200 font-medium">Tax</td>

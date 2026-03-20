@@ -17,7 +17,7 @@ const faqs = [
   {
     question: "Who is eligible for Shared Parental Leave?",
     answer:
-      "Both parents must meet eligibility requirements. The mother must be entitled to maternity leave or SMP/MA. The partner must have been employed for at least 26 weeks by the 15th week before the due date and earn at least £129 per week. The other parent must have worked for at least 26 of the 66 weeks before the due date and earned at least £390 in total in 13 of those weeks.",
+      "Both parents must meet eligibility requirements. The mother must be entitled to maternity leave or SMP/MA. The partner (the person taking SPL) must have been employed continuously for at least 26 weeks by the 15th week before the due date and earn at least £129 per week on average. Separately, the mother must also pass an 'employment and earnings test' — she must have worked for at least 26 of the 66 weeks before the due date and earned at least £390 in total across any 13 of those weeks. These are two different tests for two different parents.",
   },
   {
     question: "How much is Shared Parental Pay (ShPP)?",
@@ -58,8 +58,7 @@ export default function SharedParentalLeaveCalculator() {
   };
 
   const breadcrumbs = [
-    { label: "Home", href: "/" },
-    { label: "Calculators", href: "/calculators" },
+    { label: "Calculators", href: "/calculators/" },
     { label: "Shared Parental Leave Calculator" },
   ];
 
@@ -336,7 +335,7 @@ export default function SharedParentalLeaveCalculator() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-sky-500 mt-1">✓</span>
-                <span>Earn at least £129 per week on average</span>
+                <span>Earn at least £129 per week on average (the Lower Earnings Limit for 2026/27)</span>
               </li>
             </ul>
           </div>

@@ -182,7 +182,7 @@ The standard rate is the **lower of**:
 
 Use our [Maternity Allowance Calculator](/calculators/maternity-allowance/) to work out your exact entitlement based on your earnings.
 
-For the full 39 weeks at the maximum rate, your total Maternity Allowance would be **£7,299.02**. If your average weekly earnings are below £207.98, your MA will be 90% of your earnings rather than the maximum rate.
+For the full 39 weeks at the maximum rate, your total Maternity Allowance would be **£7,578.48**. If your average weekly earnings are below £215.91, your MA will be 90% of your earnings rather than the maximum rate.
 
 ## When Does Maternity Allowance Start and End?
 

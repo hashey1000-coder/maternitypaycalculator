@@ -33,11 +33,11 @@ Your average weekly earnings are calculated using your gross pay over an 8-week 
 
 Here's what your total gross SMP looks like at common salary levels:
 
-- **£20,000/year**: Weeks 1-6 at £346.15/week + Weeks 7-39 at £194.32/week = **£8,254 total**
-- **£25,000/year**: Weeks 1-6 at £432.69/week + Weeks 7-39 at £194.32/week = **£8,773 total**
+- **£20,000/year**: Weeks 1-6 at £346.15/week + Weeks 7-39 at £194.32/week = **£8,489 total**
+- **£25,000/year**: Weeks 1-6 at £432.69/week + Weeks 7-39 at £194.32/week = **£9,009 total**
 - **£30,000/year**: Weeks 1-6 at £519.23/week + Weeks 7-39 at £194.32/week = **£9,528 total**
 - **£35,000/year**: Weeks 1-6 at £605.77/week + Weeks 7-39 at £194.32/week = **£10,047 total**
-- **£40,000/year**: Weeks 1-6 at £692.31/week + Weeks 7-39 at £194.32/week = **£10,331 total**
+- **£40,000/year**: Weeks 1-6 at £692.31/week + Weeks 7-39 at £194.32/week = **£10,566 total**
 - **£50,000/year**: Weeks 1-6 at £865.38/week + Weeks 7-39 at £194.32/week = **£11,605 total**
 
 For your exact figures, use our [Maternity Pay Calculator](/).
@@ -59,7 +59,7 @@ Read our [complete Maternity Allowance guide](/guides/maternity-allowance-guide/
 
 SMP is treated as earnings, so you'll pay Income Tax and National Insurance on it. However, because your income is lower during maternity leave, you may pay less tax than you expect:
 
-- During the **flat-rate period** (£194.32/week), your annualised income is about £9,733 — well below the Personal Allowance of £12,570
+- During the **flat-rate period** (£194.32/week), your annualised income is about £10,105 — well below the Personal Allowance of £12,570
 - During the **90% period**, you'll pay tax at your normal rate on those higher earnings
 - You may receive a **tax refund** if your total annual income is lower than expected
 
@@ -628,7 +628,7 @@ This guide covers everything self-employed mothers need to know about maternity 
 
 ### How Much Will You Get?
 
-If you meet the employment test and have paid Class 2 NI, you'll receive the **standard rate of £194.32 per week** for 39 weeks. That's a total of **£7,299.02** over the full payment period.
+If you meet the employment test and have paid Class 2 NI, you'll receive the **standard rate of £194.32 per week** for 39 weeks. That's a total of **£7,578.48** over the full payment period.
 
 The major advantage: **Maternity Allowance is completely tax-free**. Unlike [SMP](/guides/statutory-maternity-pay-explained/), no Income Tax or National Insurance is deducted. What you're quoted is exactly what you receive.
 
@@ -757,7 +757,7 @@ During the first 6 weeks, your SMP is 90% of your average weekly earnings. If yo
 
 ### Tax During the Flat-Rate Period (Weeks 7-39)
 
-Here's where it gets interesting. The flat rate of **£194.32 per week** translates to approximately £9,733 on an annualised basis. This is below the Personal Allowance of £12,570, which means:
+Here's where it gets interesting. The flat rate of **£194.32 per week** translates to approximately £10,105 on an annualised basis. This is below the Personal Allowance of £12,570, which means:
 
 - **No Income Tax** would be due if this were your only income for the year
 - **No National Insurance** because £194.32 is below the NI Primary Threshold of £242/week
