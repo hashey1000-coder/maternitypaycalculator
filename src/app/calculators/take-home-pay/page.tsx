@@ -251,7 +251,7 @@ export default function TakeHomePayPage() {
             During maternity leave, your income drops significantly compared to your normal salary.
             This often means you move into a lower tax bracket — or even fall within the Personal
             Allowance entirely during the flat-rate SMP period. For example, if you&apos;re only
-            receiving the flat rate of £194.32 per week (£9,733.36 annualised), this is below the
+            receiving the flat rate of £194.32 per week (£10,104.64 annualised), this is below the
             Personal Allowance, meaning <strong>no Income Tax</strong> is due during those weeks.
           </p>
           <p>
@@ -317,14 +317,14 @@ export default function TakeHomePayPage() {
                 <tr>
                   <td className="px-4 py-2 border border-slate-200 font-medium">Weeks 1–6</td>
                   <td className="px-4 py-2 border border-slate-200 text-right">£519.23</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right">~£1,960</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right text-amber-600">~95%</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right">~£1,913</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right text-amber-600">~91%</td>
                 </tr>
                 <tr className="bg-slate-50/50">
                   <td className="px-4 py-2 border border-slate-200 font-medium">Weeks 7–39</td>
                   <td className="px-4 py-2 border border-slate-200 text-right">£194.32</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right">~£810</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right text-red-600">~39%</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right">~£842</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right text-red-600">~40%</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-2 border border-slate-200 font-medium">Weeks 40–52</td>
@@ -337,8 +337,8 @@ export default function TakeHomePayPage() {
           </div>
           <p>
             As you can see, the biggest income shock comes at week 7 when the 90% rate drops to
-            the flat rate. Your monthly take-home drops from around £1,960 to approximately £796
-            — a reduction of over 60%. Planning for this transition is essential. Use the
+            the flat rate. Your monthly take-home drops from around £1,913 to approximately £842
+            — a reduction of over 55%. Planning for this transition is essential. Use the
             calculator above with your actual salary to get your personalised figures.
           </p>
 

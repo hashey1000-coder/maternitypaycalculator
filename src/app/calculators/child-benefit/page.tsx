@@ -280,13 +280,13 @@ export default function ChildBenefitPage() {
                 </tr>
                 <tr>
                   <td className="px-4 py-2 border border-slate-200">3 children</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right">£60.55</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right font-medium">£3,148.60</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right">£62.85</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right font-medium">£3,268.20</td>
                 </tr>
                 <tr className="bg-slate-50/50">
                   <td className="px-4 py-2 border border-slate-200">4 children</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right">£77.80</td>
-                  <td className="px-4 py-2 border border-slate-200 text-right font-medium">£4,045.60</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right">£80.75</td>
+                  <td className="px-4 py-2 border border-slate-200 text-right font-medium">£4,199.00</td>
                 </tr>
               </tbody>
             </table>
@@ -305,8 +305,8 @@ export default function ChildBenefitPage() {
             State Pension. If you&apos;re a parent who stays at home or works part-time while
             caring for a child under 12, the Child Benefit claim automatically gives you
             National Insurance credits. These credits fill gaps in your NI record and count
-            towards the 35 qualifying years you need for the full new State Pension (currently
-            £221.20 per week in 2026/27).
+            towards the 35 qualifying years you need for the full new State Pension (£230.25
+            per week in 2025/26, rising from April 2026 under the triple lock).
           </p>
           <p>
             Without these credits, a period of maternity leave followed by part-time work or
