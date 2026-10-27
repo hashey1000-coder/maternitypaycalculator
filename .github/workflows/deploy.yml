@@ -2,16 +2,25 @@ name: Deploy to cPanel
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  deploy:
+    name: Build & Deploy
     runs-on: ubuntu-latest
+    env:
+      CPANEL_PORT: ${{ secrets.CPANEL_PORT != '' && secrets.CPANEL_PORT || '2239' }}
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -21,25 +30,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build static site
+      - name: Build site
         run: npm run build
 
-      - name: Upload build folder
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.CPANEL_HOST }}
-          username: ${{ secrets.CPANEL_USER }}
-          key: ${{ secrets.CPANEL_SSH_KEY }}
-          source: "out"
-          target: "/home/juliaspl/"
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.CPANEL_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p "$CPANEL_PORT" ${{ secrets.CPANEL_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Move files into domain root
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.CPANEL_HOST }}
-          username: ${{ secrets.CPANEL_USER }}
-          key: ${{ secrets.CPANEL_SSH_KEY }}
-          script: |
-            rm -rf /home/juliaspl/maternitypaycalculator.co.uk/*
-            cp -r /home/juliaspl/out/* /home/juliaspl/maternitypaycalculator.co.uk/
-            rm -rf /home/juliaspl/out
+      - name: Deploy site
+        run: |
+          tar czf site.tar.gz -C out .
+          scp -P "$CPANEL_PORT" -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
+            site.tar.gz \
+            ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }}:~/site.tar.gz
+          ssh -p "$CPANEL_PORT" -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
+            ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }} \
+            "mkdir -p ~/maternitypaycalculator.co.uk && cd ~/maternitypaycalculator.co.uk && for i in 1 2 3 4 5; do find . -mindepth 1 -maxdepth 1 ! -name '.well-known' -exec rm -rf {} + 2>/dev/null && break || sleep 3; done && tar xzf ~/site.tar.gz && rm -f ~/site.tar.gz"
