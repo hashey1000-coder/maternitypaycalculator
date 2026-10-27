@@ -73,6 +73,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Lkz Ad Manager */}
+        <link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossOrigin="anonymous" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(d,b,c,s,u){c=d.querySelector('link[rel=canonical]');u=String(c&&c.href||location.href||'').split(/[?#]/)[0];s=d.createElement('script');s.async=1;s.src=b+'?u='+encodeURIComponent(u);(d.head||d.documentElement).appendChild(s)}(document,"https://yield.lkz.ai/s/1140.js")`,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
