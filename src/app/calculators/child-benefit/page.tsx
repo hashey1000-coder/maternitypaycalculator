@@ -123,6 +123,11 @@ export default function ChildBenefitPage() {
         </div>
       )}
 
+      {/* Lkz Unit: in_content_1 */}
+      <div className="my-8">
+        <div className="lkz-ad-1394" />
+      </div>
+
       {/* SEO content */}
       <div className="mt-16 max-w-3xl space-y-4">
         <h2 className="text-2xl font-bold text-slate-900">About Child Benefit in the UK — 2026/27 Guide</h2>
@@ -173,6 +178,11 @@ export default function ChildBenefitPage() {
             through tax, or you can opt not to receive payments while still being registered.
             Registration protects your National Insurance record.
           </p>
+
+          {/* Lkz Unit: in_content_2 */}
+          <div className="my-8">
+            <div className="lkz-ad-1395" />
+          </div>
 
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             The High Income Child Benefit Charge (HICBC)
@@ -228,6 +238,11 @@ export default function ChildBenefitPage() {
             without having to deal with the HICBC or Self Assessment. This &quot;best of both
             worlds&quot; option is often overlooked.
           </p>
+
+          {/* Lkz Unit: in_content_3 */}
+          <div className="my-8">
+            <div className="lkz-ad-1396" />
+          </div>
 
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             Child Benefit During Maternity Leave

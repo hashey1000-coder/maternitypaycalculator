@@ -86,6 +86,10 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
+        {/* Lkz Unit: Top_leaderboard */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+          <div className="lkz-ad-1393" />
+        </div>
         <main className="min-h-screen">{children}</main>
         <Footer />
         <script

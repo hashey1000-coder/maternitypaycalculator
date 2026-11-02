@@ -86,6 +86,11 @@ export default function Home() {
           <div className="max-w-2xl mx-auto">
             <MaternityPayCalculator />
           </div>
+
+          {/* Lkz Unit: in_content_1 */}
+          <div className="max-w-2xl mx-auto mt-6">
+            <div className="lkz-ad-1394" />
+          </div>
         </div>
       </section>
 
@@ -204,6 +209,11 @@ export default function Home() {
               £9,527.94 over the 39-week paid period.
             </p>
 
+            {/* Lkz Unit: in_content_2 */}
+            <div className="my-8 not-prose">
+              <div className="lkz-ad-1395" />
+            </div>
+
             <h3 className="text-xl font-semibold text-slate-800 mt-8">
               SMP for Different Salary Levels
             </h3>
@@ -310,6 +320,11 @@ export default function Home() {
               </Link>{" "}
               to check your entitlement.
             </p>
+
+            {/* Lkz Unit: in_content_3 */}
+            <div className="my-8 not-prose">
+              <div className="lkz-ad-1396" />
+            </div>
 
             <h3 className="text-xl font-semibold text-slate-800 mt-8">
               Planning Your Maternity Leave Finances

@@ -278,6 +278,11 @@ export default function SharedParentalLeaveCalculator() {
           )}
         </div>
 
+        {/* Lkz Unit: in_content_1 */}
+        <div className="my-8">
+          <div className="lkz-ad-1394" />
+        </div>
+
         {/* SEO Content */}
         <div className="prose prose max-w-none">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">
@@ -354,6 +359,11 @@ export default function SharedParentalLeaveCalculator() {
             remaining 33 weeks of flat-rate pay form the shared pool. Combined with the mother&apos;s
             SMP, there are a maximum of 39 paid weeks available to split between parents.
           </p>
+
+          {/* Lkz Unit: in_content_2 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1395" />
+          </div>
 
           <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-3">
             How to Apply for Shared Parental Leave
@@ -437,6 +447,11 @@ export default function SharedParentalLeaveCalculator() {
             your SPL. They&apos;re entirely optional — neither you nor your employer can insist on
             them.
           </p>
+
+          {/* Lkz Unit: in_content_3 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1396" />
+          </div>
 
           <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-3">
             Can Self-Employed Parents Take Shared Parental Leave?

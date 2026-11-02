@@ -329,6 +329,11 @@ export default function EnhancedMaternityPayCalculator() {
           )}
         </div>
 
+        {/* Lkz Unit: in_content_1 */}
+        <div className="my-8">
+          <div className="lkz-ad-1394" />
+        </div>
+
         {/* SEO Content */}
         <div className="prose prose max-w-none">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">
@@ -395,6 +400,11 @@ export default function EnhancedMaternityPayCalculator() {
             </table>
           </div>
 
+          {/* Lkz Unit: in_content_2 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1395" />
+          </div>
+
           <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-3">
             How Enhanced Maternity Pay Works Alongside SMP
           </h3>
@@ -430,6 +440,11 @@ export default function EnhancedMaternityPayCalculator() {
             </Link>{" "}
             to estimate your after-tax income during each phase of your maternity leave.
           </p>
+
+          {/* Lkz Unit: in_content_3 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1396" />
+          </div>
 
           <h3 className="text-xl font-semibold text-slate-900 mt-8 mb-3">
             Do I Have to Pay Back Enhanced Maternity Pay?

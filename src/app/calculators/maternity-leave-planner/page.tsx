@@ -172,6 +172,11 @@ export default function MaternityLeavePlannerPage() {
         </div>
       )}
 
+      {/* Lkz Unit: in_content_1 */}
+      <div className="my-8">
+        <div className="lkz-ad-1394" />
+      </div>
+
       {/* SEO Content */}
       <div className="mt-16 max-w-3xl">
         <h2 className="text-2xl font-bold text-slate-900 mb-4">
@@ -259,6 +264,11 @@ export default function MaternityLeavePlannerPage() {
             </Link>.
           </p>
 
+          {/* Lkz Unit: in_content_2 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1395" />
+          </div>
+
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             Earliest and Latest Maternity Leave Start Dates
           </h3>
@@ -342,6 +352,11 @@ export default function MaternityLeavePlannerPage() {
             your normal rate, and this is on top of your SMP (not instead of it). Any work done
             on a KIT day counts as a full day, even if you only work for an hour.
           </p>
+
+          {/* Lkz Unit: in_content_3 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1396" />
+          </div>
 
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             Shared Parental Leave — An Alternative

@@ -96,6 +96,11 @@ export default function MaternityAllowancePage() {
         </div>
       )}
 
+      {/* Lkz Unit: in_content_1 */}
+      <div className="my-8">
+        <div className="lkz-ad-1394" />
+      </div>
+
       {/* SEO Content */}
       <div className="mt-16 max-w-3xl space-y-6">
         <h2 className="text-2xl font-bold text-slate-900">What Is Maternity Allowance?</h2>
@@ -199,6 +204,11 @@ export default function MaternityAllowancePage() {
             to compare SMP after tax with the MA rate.
           </p>
 
+          {/* Lkz Unit: in_content_2 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1395" />
+          </div>
+
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             How Much Maternity Allowance Will You Receive?
           </h3>
@@ -238,6 +248,11 @@ export default function MaternityAllowancePage() {
             has refused SMP, they should have given you a form SMP1 — include this with your
             MA claim.
           </p>
+
+          {/* Lkz Unit: in_content_3 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1396" />
+          </div>
 
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             Maternity Allowance for the Self-Employed

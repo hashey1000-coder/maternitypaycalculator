@@ -137,11 +137,21 @@ export default async function GuidePage({ params }: Props) {
         </Link>
       </div>
 
+      {/* Lkz Unit: in_content_1 */}
+      <div className="my-8">
+        <div className="lkz-ad-1394" />
+      </div>
+
       {/* Article content */}
       <div
         className="prose prose max-w-none text-slate-600 leading-relaxed"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
+
+      {/* Lkz Unit: in_content_2 */}
+      <div className="my-8">
+        <div className="lkz-ad-1395" />
+      </div>
 
       {/* Related calculators */}
       <div className="mt-12 bg-white rounded-xl border border-slate-200 p-6">
@@ -196,6 +206,11 @@ export default async function GuidePage({ params }: Props) {
             </div>
           </Link>
         </div>
+      </div>
+
+      {/* Lkz Unit: in_content_3 */}
+      <div className="my-8">
+        <div className="lkz-ad-1396" />
       </div>
 
       {/* Related guides */}

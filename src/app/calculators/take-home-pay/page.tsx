@@ -207,6 +207,11 @@ export default function TakeHomePayPage() {
         </div>
       )}
 
+      {/* Lkz Unit: in_content_1 */}
+      <div className="my-8">
+        <div className="lkz-ad-1394" />
+      </div>
+
       {/* SEO Content */}
       <div className="mt-16 max-w-3xl space-y-4">
         <h2 className="text-2xl font-bold text-slate-900">
@@ -294,6 +299,11 @@ export default function TakeHomePayPage() {
             </Link>{" "}
             gives you NI credits for any remaining weeks where you&apos;re not earning enough.
           </p>
+
+          {/* Lkz Unit: in_content_2 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1395" />
+          </div>
 
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             Your Maternity Pay Month by Month
@@ -450,6 +460,11 @@ export default function TakeHomePayPage() {
             (taxed), while MA pays a maximum of £194.32 (tax-free). For higher earners, SMP
             is significantly more generous during this period.
           </p>
+
+          {/* Lkz Unit: in_content_3 */}
+          <div className="my-8 not-prose">
+            <div className="lkz-ad-1396" />
+          </div>
 
           <h3 className="text-lg font-semibold text-slate-800 mt-8 !mb-2">
             Pension Contributions During Maternity Leave
